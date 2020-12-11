@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(/images/Bidriware/80b1cccc5afbfe3855f45bf1d5fe7531.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 160px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+.logo{
+    width: 135px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 150px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #595959;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar ul li a.active{
+    background: #fae770;
+}  
+.navbar ul li a:hover{
+    background: #fae770; 
+}
+.wrapper .center{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+.center h3{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 900px;
+    text-align: center;
+}
+.center h4{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 900px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #595959;
+    background: rgb(255, 255, 255);
+    border: 2px solid #595959;
+    outline: none;
+    cursor: pointer;
+    border-radius: 35px;
+}
+.buttons a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #595959;
+}
+.buttons a.hover{
+    text-decoration: none;
+    background: #c4c2c2;
+}
+

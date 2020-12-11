@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Be Vietnam" rel="stylesheet">
+    <style>
+{box-sizing: border-box}
+
+body {
+  margin: 5px;
+  font-family: 'Be Vietnam';
+  padding: 0px;
+  background: #f1f1f1;
+}
+.header {
+  margin-top: 0px;
+  padding: 5px;
+  text-align: left;
+  background:rgb(77, 46, 31);
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+.main {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 32%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  align-content: center;
+  background-color: rgb(185, 143, 92);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100%) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+      <h1>Products</h1>
+    </div>
+    <div>
+      <h1 style="font-size: 20px;">Buy some of the metal craft work from here</h1>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="images/Bidriware/bpro1.jpg" alt="Mountains" style="width:100%">
+          <h3>My Work</h3>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+        <img src="images/Bidriware/bpro2.jpg" alt="Lights" style="width:100%">
+          <h3>My Work</h3>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+        <img src="images/Bidriware/bpro3.jpg" alt="Nature" style="width:100%">
+          <h3>My Work</h3>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+        <img src="images/Bidriware/bpro4.jpg" alt="Mountains" style="width:100%">
+          <h3>My Work</h3>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+      </div>
+</body>
+</html>
